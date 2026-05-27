@@ -1,10 +1,7 @@
 """
-KOS AI 3-Day Practice Script
-============================
-
-Day 1: PPG Signal Processing
-Day 2: ML + Statistics
-Day 3: Tiny RAG / Retrieval System
+PPG Signal Processing
+ML + Statistics
+Tiny RAG / Retrieval System
 
 Run:
     python kos_ai_3day_practice.py
@@ -664,28 +661,6 @@ def run_day3_rag():
 
 
 # ============================================================
-# MOCK QUESTIONS
-# ============================================================
-
-def print_mock_questions():
-    print_section("MOCK INTERVIEW QUESTIONS")
-
-    mock_questions = [
-        "Explain why 0.5–4 Hz is a reasonable PPG heart-rate band.",
-        "Why use filtfilt instead of lfilter for physiological signal filtering?",
-        "How would you estimate HR from a live 25 Hz PPG stream?",
-        "What is the difference between sensitivity, specificity, precision, and recall?",
-        "Given sensitivity=95%, specificity=90%, prevalence=2%, calculate PPV.",
-        "How would you deploy a glucose prediction model on a wristband?",
-        "What are the risks of using LLMs in diabetes care?",
-        "Explain RAG in 60 seconds.",
-        "How would you design a HIPAA-aware diabetes chatbot?",
-        "How would you handle motion artifacts in PPG using accelerometer data?",
-    ]
-
-    for i, q in enumerate(mock_questions, 1):
-        print(f"{i}. {q}")
-
 
 # ============================================================
 # Main
